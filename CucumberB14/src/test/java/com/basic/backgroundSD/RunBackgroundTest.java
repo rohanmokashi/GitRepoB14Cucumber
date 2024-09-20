@@ -11,6 +11,7 @@ import cucumber.api.junit.Cucumber;
 					
 					monochrome=true,
 					//dryRun=true,
+					//Check code
 					
 					features= {"src/test/resources/com/basic/backgroundFF/"},
 					glue={"com/basic/backgroundSD/"},
