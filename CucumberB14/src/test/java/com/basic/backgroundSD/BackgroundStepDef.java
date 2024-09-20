@@ -34,6 +34,7 @@ public class BackgroundStepDef {
 	public void user_checks_user_first_name_is_present(String userName) throws InterruptedException{
 		String userNameActual =driver.findElement(By.name("firstname")).getAttribute("value");
 		Assert.assertEquals(userName, userNameActual);
+		Assert.assertEquals(2, 2);
 		Assert.assertEquals(1, 1);
 		Thread.sleep(1000);
 	}
