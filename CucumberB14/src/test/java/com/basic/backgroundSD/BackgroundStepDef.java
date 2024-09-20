@@ -35,7 +35,7 @@ public class BackgroundStepDef {
 		String userNameActual =driver.findElement(By.name("firstname")).getAttribute("value");
 		Assert.assertEquals(userName, userNameActual);
 		Assert.assertEquals(2, 2);
-		Assert.assertEquals(1, 1);
+		Assert.assertEquals(4, 4);
 		Thread.sleep(1000);
 	}
 	
